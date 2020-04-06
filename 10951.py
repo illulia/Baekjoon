@@ -5,5 +5,3 @@ while True:
         print(a+b)
     except:
         break
-
- 
