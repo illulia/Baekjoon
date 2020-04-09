@@ -1,9 +1,8 @@
 import sys
 a = int(sys.stdin.readline())
-b = []
-for i in range(a):
-    b.append(int(sys.stdin.readline()))
-b.sort()
-for j in b:
-    sys.stdout.write(j)
+b = [0] * 10001
+for i in range(a):    
+    b[int(sys.stdin.readline())] +=1
 
+for i in range(10001):
+    sys.stdout.write('%s\n' % i * b[i])
