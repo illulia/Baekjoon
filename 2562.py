@@ -6,6 +6,6 @@ for i in range(1,10):
     if b > a:
         a = b
 print(a)
-for i in range(10):
+for i in range(9):
     if a == c[i]:
-        print(i)
+        print(i+1)
