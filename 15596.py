@@ -1,5 +1,5 @@
-def hap():
-    a = [map(int,input().split())]
-    return sum(a)
-c = hap()
-print(c)
+def solve(a):
+    ans = 0
+    for i in a:
+        ans += i
+    return ans
